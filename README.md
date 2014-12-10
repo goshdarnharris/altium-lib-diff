@@ -27,3 +27,12 @@ Changed:
 ```
 
 At the moment, this will only perform diffs for schematic library (.SchLib) files. Support for PCB libraries (.PcbLib) is being added.
+
+##Installation
+libdiff requires python 3, and depends on the `olefile` library, which can be installed via `pip`.
+
+```
+pip3 install olefile
+```
+
+Clone this repository or download the script and you should be good to go.
